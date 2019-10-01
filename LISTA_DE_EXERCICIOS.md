@@ -1,26 +1,23 @@
-{-
-- Usando os predicados not,and e or prontos de Haskell, implemente os predicados (funcoes) xor (or exclusivo),
-- impl (implicacao A => B é equivalente a (not A or B)) e equiv (A <=> B é definido como A => B and B => A)
-- Procure usar casamento de padroes e reutilizar as funcoes.
--}
+
+Usando os predicados not,and e or prontos de Haskell, implemente os predicados (funcoes) xor (or exclusivo),
+impl (implicacao A => B é equivalente a (not A or B)) e equiv (A <=> B é definido como A => B and B => A) 
+
+Procure usar casamento de padroes e reutilizar as funcoes.
 xor a b = undefined
 impl a b = undefined
 equiv a b = undefined
 
-{-
-A funcao square esta implementada e eleva ao quadrado um determinado numero
--}
-square x = x*x
 
+Implemente a funcao potencia, que retorna o resultado de x elevado a y 
 
-- [ ] Implemente a funcao potencia, que retorna o resultado de x elevado a y 
 pow x y = undefined
 
 
-{-
-- Implemente a funcao fatorial que calcula o fatorial de um numero 
--}
+Implemente a funcao fatorial que calcula o fatorial de um numero 
+
 fatorial x = undefined
+
+
 
 {-
 - Determina se um numero eh primo ou nao. Preocupe-se apenas em resolver o problema.
